@@ -1,0 +1,15 @@
+{
+    "debugMode"     : 1,
+    "modules" : ["cocos2d", "extensions", "external"],
+    "frameRate"     : 60,
+    "id"            : "gameCanvas",
+    "renderMode"    : 1,
+    "jsList"        : [
+    	"js/resources.js",
+    	"js/scene.js",
+    	"js/layer1.js",
+    	"js/layer2.js",
+        "js/layer3.js",
+        "js/layer4.js"
+    ]
+}
