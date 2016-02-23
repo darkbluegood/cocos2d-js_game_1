@@ -14,15 +14,7 @@ var layer1 = cc.Layer.extend({
         item1.y = winSize.height*0.66;
 		this.addChild(item1);
 
-		/*var play = new cc.MenuItemFont("开始玩", this.onMouseDown, this);
-		play.fontSize = 24;
-		play.fontName = "Microsoft YaHei";
-		var menu = new cc.Menu(play);
-		menu.alignItemsVertically();
-		menu.x = winSize.width / 2;
-        menu.y = winSize.height * 2 / 6;
-        play.setEnabled(false);
-        this.addChild(menu);*/
+		
 
         var play = this.play = new cc.LabelTTF("开始玩", "Microsoft YaHei",36, cc.size(120, 50), cc.TEXT_ALIGNMENT_CENTER);
 		play.x = winSize.width / 2;
@@ -41,7 +33,6 @@ var layer1 = cc.Layer.extend({
 		this.addChild(logo);
 		this.setUserData({sd:333})
 
-		//this.addChild(new HowToPlayLayer());
 		this.loadEvent();
 
 	},
